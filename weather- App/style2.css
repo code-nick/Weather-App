@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:blueviolet;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background-color: #fff;
+   
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.input-field {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.input-field p{
+    padding-bottom: 10px;
+}
+.input-field input{
+   width: 20rem;
+   height: 2rem;
+}
+.select-tag{
+    padding: 20px;
+}
+.select-tag p{
+    padding-bottom: 10px;
+}
+.select-tag select{
+    padding: 10px;
+}
